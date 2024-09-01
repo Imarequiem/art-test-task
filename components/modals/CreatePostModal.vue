@@ -133,6 +133,7 @@ const resetForm = () => {
 .form-textarea {
   resize: vertical;
   max-height: 400px;
+  min-height: 49px;
 }
 
 .form-actions {
