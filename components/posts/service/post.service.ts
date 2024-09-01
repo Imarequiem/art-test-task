@@ -12,8 +12,8 @@ class PostsService {
       },
 
       allPosts: (currentPage: number, postsPerPage: number = 10): Array<Post> => {
-        const start = (currentPage - 1) * postsPerPage;
-        const end = start + postsPerPage;
+        const start: number = (currentPage - 1) * postsPerPage;
+        const end: number = start + postsPerPage;
         return usePostsStore().allPosts.slice(start, end)
       },
 

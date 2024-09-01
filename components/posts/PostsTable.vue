@@ -44,6 +44,7 @@ defineProps<{
 }>()
 
 const toSmallestId: Ref<boolean> = ref(true)
+
 const changeIdSort = () => {
   toSmallestId.value = !toSmallestId.value
 
